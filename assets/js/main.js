@@ -192,14 +192,14 @@ themeButton.addEventListener('click', () => {
 
 // typing text animation script
 var typed = new Typed(".typing", {
-    strings: ["Photographer", "Web Developer", "Web Designer", "Frontend Developer", "Graphic Designer", "Coder"],
+    strings: ["Web Developer", "Web Designer", "Frontend Developer", "Graphic Designer", "Coder"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
 });
 
 var typed = new Typed(".typing-2", {
-    strings: ["Photographer", "Web Developer", "Web Designer", "Frontend Developer", "Graphic Designer", "Coder"],
+    strings: ["Web Developer", "Web Designer", "Frontend Developer", "Graphic Designer", "Coder"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
@@ -218,3 +218,9 @@ var typed = new Typed(".typing-2", {
 // s1.setAttribute('crossorigin','*');
 // s0.parentNode.insertBefore(s1,s0);
 // })();
+// let test_link=document.querySelectorAll(".testimonial__content")
+// console.log(test_link);
+    // 
+function test_link() {
+    window.location="https://www.fiverr.com/users/abdullah01943"
+}

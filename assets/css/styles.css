@@ -110,6 +110,7 @@ html{
 }
 
 body{
+    transition: 0.8s;
     margin: 0 0 var(--header-height) 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -351,6 +352,8 @@ img{
 
 /*==================== BUTTONS ====================*/
 .button{
+    cursor: pointer;
+    border: none;
     display: inline-block;
     background-color: var(--first-color);
     color: #fff;
@@ -506,30 +509,30 @@ img{
 }
 
 .skills__html{
-    width: 90%;
+    width: 95%;
 }
 .skills__css{
-    width: 80%;
+    width: 90%;
 }
 .skills__js{
-    width: 70%;
+    width: 85%;
 }
 .skills__react{
-    width: 85%;
+    width: 80%;
 }
 
 
 .skills__php{
-    width: 70%;
+    width: 40%;
 }
 .skills__node{
-    width: 60%;
+    width: 75%;
 }
 .skills__firebase{
     width: 90%;
 }
 .skills__python{
-    width: 45%;
+    width: 70%;
 }
 
 .skills__figma{
@@ -617,7 +620,7 @@ img{
 }
 
 .qualification [data-content]{
-    display: none;
+    display: block; /*when you add tabe here then you havve to add dispaly none*/
 }
 
 .qualification__active[data-content]{
@@ -815,7 +818,6 @@ img{
     width: 232px;
     justify-self: center;
 }
-
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data,
 .testimonial__header{

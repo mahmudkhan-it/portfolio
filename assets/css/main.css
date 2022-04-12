@@ -1,0 +1,9 @@
+.testimonial__content{
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 10px;
+}
+.testimonial__content:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px 0px rgba(134, 134, 134, 0.30);
+}
